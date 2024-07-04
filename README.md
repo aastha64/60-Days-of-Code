@@ -1,2 +1,2 @@
 # 45-Days-of-Code
-45 days of continuous coding for understanding and solving questions related to different modules in C++ language.
+45 days of continuous coding for understanding different coding modules and problem solving in C++ language.
