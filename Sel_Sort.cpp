@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
-
+// Sorting is a kind of operation we perform on our data structures to organise them either in ascending order or descending order.
+// Selection Sort -  Focuses on finding the minimum element and swap its location with the miminum index 
 void selection_sort(int arr[], int n){
     for(int i = 0; i <= n-2; i++){
         int min = i;
