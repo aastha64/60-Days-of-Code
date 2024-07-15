@@ -1,7 +1,12 @@
 #include <iostream>
 using namespace std;
 
-// Bubble sorting will sort the array by considering the last index value as max element.
+/* Bubble sorting will sort the array by considering the last index value as max element.
+     Here, after each iteration, the array becomes sorted up to the last index of the range.
+     That is why the last index of the range decreases by 1 after each iteration.
+     This decrement is achieved by the outer loop and the last index is represented by variable i in the following code. 
+      And the inner loop(i.e. j) helps to push the maximum element of range [0….i] to the last index(i.e. index i).
+*/
 
 void bubble_sort(int arr[], int n) {
     // bubble sort
