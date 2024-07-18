@@ -1,13 +1,16 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+/* Quick Sort is another sorting algorithm that works similar to merge sort. Unlike merge sort there is no neeed of taking additional array. Here we choose
+    a random element from the array i.e Pivot Element that will divide the array in two parts in such a away that all the elements less tha pivot element will 
+    be considered as left half and all those elements which are greater then pivot are considered as right half
+    */ 
+
 int partition(vector<int> &arr, int low, int high) {
     int pivot = arr[low];
     int i = low;   // pointer that will traverse array in forward direction to get larger elements than pivot 
     int j = high;  // pointer that will traverse array in backward direction to get smaller elements than pivot
    
-    
-
     while (i < j) {
         while (arr[i] <= pivot && i <= high - 1) {
             i++;
