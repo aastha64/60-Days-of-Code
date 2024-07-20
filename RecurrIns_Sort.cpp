@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-/* the only change we will do the recursive insertion sort algorithm and the rest of the part
+/* the only change we will do the recursive insertion sort algorithm by excluding loops and the rest of the part
    will be completely the same as it was in the case of iterative insertion sort. */
 
 void ins_sort(int arr[], int i , int n){
