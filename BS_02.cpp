@@ -1,9 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
-#include <bits/stdc++.h>
-using namespace std;
+// RECURSIVE APPROACH FOR BINARY SEARCHING
 
 int binarySearch(vector<int>& nums, int low, int high, int target) {
 
