@@ -1,9 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
-#include <bits/stdc++.h>
-using namespace std;
+ // ITERATIVE APPROACH FOR BINARY SEARCHING
 
 int binarySearch(vector<int>& nums, int target) {
     int n = nums.size(); //size of the array
