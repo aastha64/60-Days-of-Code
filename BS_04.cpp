@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-                    // To find the square root of a number n and if it is not a perfect square , return the floor value of 'sqrt(n)'.
+                    // To find the square root of a number n and if (n) is not a perfect square , return the floor value of 'sqrt(n)'.
 // Naive Approach
 int findSqrt(int n){
     int ans  = 0;
