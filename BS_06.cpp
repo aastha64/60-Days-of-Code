@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-// LeetCode Problem 875 based on binary searching
+// LeetCode Problem 875 based on binary searching algorithm
 int TotalBananas(int n, int arr(), int h){
     int t = 0;
     int k; int sum = 0;
