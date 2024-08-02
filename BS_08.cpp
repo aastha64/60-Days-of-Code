@@ -10,10 +10,10 @@ int daysReq(vector<int> &arr, int cap){
     for(int i = 0; i < n; i++){
         if((load + arr[i]) > cap){
             days += 1;
-            load = arr[i];
+            load = arr[i]; // load the weight
         }
         else{
-            load += arr[i];
+            load += arr[i];  // the weight on the same day
         }
     }
 
