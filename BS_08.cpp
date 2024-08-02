@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// Capacity to Ship Packages within D Days using Binary Searching
+
 int daysReq(vector<int> &arr, int cap){
     int n = arr.size();
     int days = 1; // first day
