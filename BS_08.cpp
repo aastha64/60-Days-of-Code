@@ -3,8 +3,8 @@ using namespace std;
 
 int daysReq(vector<int> &arr, int cap){
     int n = arr.size();
-    int days = 1; 
-    int load = 0;
+    int days = 1; // first day
+    int load = 0; // initial load of packages
     for(int i = 0; i < n; i++){
         if((load + arr[i]) > cap){
             days += 1;
