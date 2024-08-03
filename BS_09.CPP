@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// given a strictly increasing array ‘vec’ and a positive integer 'k'. Find the 'kth' positive integer missing from 'vec'.
+
 int missingK(vector < int > vec, int n, int k) {
     for (int i = 0; i < n; i++) {
         if (vec[i] <= k) k++; //shifting k
