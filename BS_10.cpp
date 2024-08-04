@@ -1,6 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+/*given an array 'arr' of size 'n' which denotes the position of stalls.
+   given an integer 'k' which denotes the number of aggressive cows.
+   given the task of assigning stalls to 'k' cows such that the minimum distance between any two of them is the maximum possible.
+   Find the maximum possible minimum distance.*/
+
 bool canWePlace(vector<int> &stalls, int dist, int cows) {
     int n = stalls.size(); //size of array
     int cntCows = 1; //no. of cows placed
