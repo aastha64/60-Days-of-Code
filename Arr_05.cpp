@@ -1,5 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
+
+/* 
+Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] 
+such that i != j, i != k, and j != k, and nums[i] + nums[j] + nums[k] == 0.    
+*/
+
 vector<vector<int>> threeSum(vector<int>& nums){
     int n = nums.size();
     sort(nums.begin() , nums.end());
