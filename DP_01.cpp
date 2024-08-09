@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// Memoization
 
 int f(int n, vector<int>& dp)
 {
