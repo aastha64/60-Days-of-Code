@@ -1,7 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// Tabulation
+// Tabulation: Known as the “bottom-up '' dynamic programming, usually the problem is solved in the direction of solving the base cases to the main problem
+
 
 int main() {
 
