@@ -3,6 +3,8 @@ using namespace std;
 
 // Find the duplicate in an array of N+1 integers
 
+
+    // OPTIMAL APPROACH 1
 int findDuplicate(vector < int > & arr){
     int n = arr.size();
     int freq[n+1] = {0};
